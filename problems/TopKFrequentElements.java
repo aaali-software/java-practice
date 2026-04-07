@@ -11,7 +11,7 @@ public class TopKFrequentElements {
         // Step 1: frequency map
         Map<Integer, Integer> freqMap = new HashMap<>();
         for (int num : nums) {
-            freqMap.put(num, freqMap.getOrDefault(num, 0) +1);
+            freqMap.put(num, freqMap.getOrDefault(num, 0) + 1);
         }
 
         // Step 2: min heap based on frequency
